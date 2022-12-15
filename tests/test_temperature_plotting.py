@@ -10,9 +10,6 @@ def test_compute_mean():
     calc = tpl.compute_mean([-10, 10])
     assert calc == 0
     
-    #calc = tpl.compute_mean([-10, 10])
-    #assert calc == 15
-    
     calc = tpl.compute_mean([0,10,0])
     assert round(calc,4) == 3.3333, "Check that the average is roughly correct"
     
